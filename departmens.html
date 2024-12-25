@@ -1,0 +1,92 @@
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/ae360af17e.js" crossorigin="anonymous"></script>
+</head>
+<title>Department</title>
+<body>
+
+    <!-- Halkaan ka bilow samaynta formlkaaga -->
+<div class="card" mb-4>
+    <div class="card-header">
+        <h5 class="card-title">add Department</h5>
+    </div>
+    <div class="card-body">
+        <form id="Department">
+            <div class="row g-3 mb-4">
+                
+               <div class="col-md-4">
+                <div class="input-group">
+                    <span class="input-group-text"><i></i></span>
+                    <input type="text" class="form-control" placeholder="Enter DepartmentID" required>
+                </div>
+               </div>
+
+             <div class="col-md-4">
+                <div class="input-group">
+                    <span class="input-group-text"><i></i></span>
+                    <input type="text" class="form-control" placeholder="Enter DepartmentNC" required>
+                </div>
+               </div>
+
+               <div class="col-md-4">
+                <div class="input-group">
+                    <span class="input-group-text"><i></i></span>
+                    <input type="date" class="form-control" required>
+                </div>
+               </div>
+            </div>
+            <div class="row g-3 mb-4">
+                <div class="col-md-3">
+                    <button type="submit" class="btn btn-success w-100">save <i></i></button>
+                </div>
+                <div class="col-md-3">
+                    <button type="submit" class="btn btn-danger w-100">save <i></i></button>
+                </div>
+                <div class="col-md-3">
+                    <button type="button" class="btn btn-warning w-100">save <i></i></button>
+                </div>
+                <div class="col-md-3">
+                    <button type="button" class="btn btn-info w-100">save <i></i></button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+    <div class="card">
+     <div class="card-header">
+        <h5 class="card-title">Departments</h5>
+     </div> 
+     <div class="card-body">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Department</th>
+                    <th>Registration date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Computer science</td>
+                    <td>2024-5-4</td>
+                </tr>
+                <tr>
+
+                    <td>2</td>
+                    <td>Midwifery</td>
+                    <td>2024-6-15</td>
+                </tr>
+            </tbody>
+        </table>
+     </div>   
+    </div>
+</body>
+
+</html>
